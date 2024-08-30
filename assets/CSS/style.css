@@ -1,0 +1,108 @@
+:root {
+  --color-dark: #333;
+  --color-light: #f4f4f4;
+  --font-size-title: 18.72px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+
+.header {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 100vh;
+  background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-content {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  margin-top: 105px;
+  margin-left: -145px;
+  width: 300px;
+  text-align: center;
+}
+
+.logo {
+  height: 180px;
+  width: 180px;
+}
+
+.header-title {
+  margin: 16px 0;
+  font-size: 35.2px;
+}
+
+.header-text {
+  line-height: 1.7;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  margin: 64px 0;
+  gap: 30px;
+}
+
+.services-item {
+  width: 300px;
+  text-align: center;
+}
+
+.services-title {
+  margin: 19px 0;
+  font-size: var(--font-size-title);
+  font-weight: bold;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: var(--color-dark);
+  padding: 55px 0;
+  background: var(--color-light);
+}
+
+.about-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-image {
+  margin-left: 160px;
+}
+
+.about-content {
+  max-width: 500px;
+}
+
+.about-title {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: var(--font-size-title);
+}
+
+.footer {
+  text-align: center;
+  background: var(--color-dark);
+  color: var(--color-light);
+  margin-top: auto;
+  padding: 32px 0;
+}
